@@ -1,0 +1,41 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "emmet.includeLanguages":{"html": "html", "javascript": "javascriptreact"},
+    "[javascript]": {
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "javascript.validate.enable": false,
+    "eslint.alwaysShowStatus": true,
+    "explorer.confirmDragAndDrop": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "window.zoomLevel": 0,
+    "todohighlight.keywords": [
+        {
+            "text": "TODO",
+            "color": "#ffffff",
+            "cursor" : "help",
+            "border": "1px solid #3ddb89",
+            "borderRadius": "2px",
+            "backgroundColor": "#3ddb89",
+        }
+    ],
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.hovers.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "breadcrumbs.enabled": true,
+    "editor.snippetSuggestions": "top",
+    "prettier.endOfLine": "lf",
+    "prettier.singleQuote": true,
+    "terminal.integrated.shell.windows": "cmd.exe",
+    "terminal.integrated.env.windows": {
+        "CMDER_ROOT": "C:\\Users\\gesnault\\Documents\\cmder"
+    },
+    "terminal.integrated.shellArgs.windows": [
+        "/k",
+        "%CMDER_ROOT%\\vendor\\init.bat"
+    ]
+}

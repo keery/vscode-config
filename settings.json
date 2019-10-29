@@ -37,5 +37,9 @@
     "terminal.integrated.shellArgs.windows": [
         "/k",
         "%CMDER_ROOT%\\vendor\\init.bat"
+    ],
+    "eslint.workingDirectories": [
+        "./client",
+        "./server"
     ]
 }
